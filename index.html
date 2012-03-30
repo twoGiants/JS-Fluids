@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FDS</title>
+  <script type="text/javascript" src="jquery-1.6.4.js"></script>
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+</head>
+<body>
+
+  <div id="canvas_wrapper">
+    <canvas id="my_canvas" width="512" height="512"></canvas>
+  </div>
+  
+  <div class="button_wrapper_1">
+    
+      <button id="b0_start_stop" class="clean_gray"><span id="b0_text">start</span></button>
+      
+      <button id="b1_reset" class="clean_gray"><span id="b1_text">reset</span></button>
+      
+      <span class="clr_flt"></span>
+      
+  </div> <!-- END div=button_wrapper_1 -->
+  
+  <div class="button_wrapper_1">
+    
+    <button id="b2_color" class="clean_gray"><span id="b2_text">white</span></button>
+      
+    <button id="b3_fps" class="clean_gray">fps: <span id="b3_text">--</span></button>
+    
+    <span class="clr_flt"></span>
+     
+  </div>
+  
+  <script type="text/javascript" src="fds.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  
+</body>
+</html>
