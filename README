@@ -1,16 +1,6 @@
-JS-Fluids is a little side project of mine.
-
-I implemented the Solver from Jos Stam introduced in this paper:
+Javascript implementation of Jos Stams fast fluid solver:
 - http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf
 
-The JS implementation is reasonably fast, but not fast enough I'd say. In the code you can clearly see I'm not a JS expert and that it is a quick&dirty version, well and that I'm from the C/C++ devision ^_^
-
-There are a lot of performance tweaks which can be done:
-- get rid of globals...eeehhhmmmm and basicly do what is told here: 
-  - http://oreilly.com/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html
-  - and here http://dev.opera.com/articles/view/efficient-javascript/
-
 How to run it?
- - load the index.html in your browser, enjoy :)
-
-Cheers.
+ - clone
+ - load the index.html in your browser
